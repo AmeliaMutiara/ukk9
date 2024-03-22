@@ -1,0 +1,67 @@
+@extends('base')
+@section('content_header')
+    <h1>Tabel</h1>
+@endsection
+@section('script')
+    <script>
+        $(document).ready(function () {
+            $('table').dataTable();
+        });
+    </script>
+@endsection
+@section('content')
+    <table class="table table-bordered table-striped">
+        <thead>
+            <th>A</th>
+            <th>B</th>
+            <th>C</th>
+        </thead>
+        <tbody>
+            <tr><td>1</td>
+            <td>2</td>
+            <td>3</td></tr>
+            <tr><td>3</td>
+            <td>2</td>
+            <td>3</td></tr>
+            <tr><td>1</td>
+            <td>2</td>
+            <td>3</td></tr>
+            <tr><td>1</td>
+            <td>2</td>
+            <td>3</td></tr>
+            <tr><td>1</td>
+            <td>2</td>
+            <td>3</td></tr>
+            <tr><td>1</td>
+            <td>2</td>
+            <td>3</td></tr>
+            <tr><td>1</td>
+            <td>2</td>
+            <td>3</td></tr>
+            <tr><td>1</td>
+            <td>2</td>
+            <td>3</td></tr>
+            <tr><td>1</td>
+            <td>2</td>
+            <td>3</td></tr>
+            <tr><td>1</td>
+            <td>2</td>
+            <td>3</td></tr>
+            <tr><td>1</td>
+            <td>2</td>
+            <td>3</td></tr>
+            <tr><td>1</td>
+            <td>2</td>
+            <td>3</td></tr>
+            <tr><td>1</td>
+            <td>2</td>
+            <td>3</td></tr>
+            <tr><td>1</td>
+            <td>2</td>
+            <td>3</td></tr>
+            <tr><td>1</td>
+            <td>2</td>
+            <td>3</td></tr>
+        </tbody>
+    </table>
+@endsection
